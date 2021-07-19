@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -6,14 +6,14 @@
     <Authors>RGBKit</Authors>
     <Product>RGBKit</Product>
     <Description>The core RGB Kit components.</Description>
-    <PackageProjectUrl>https://github.com/RGBKit</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/AndrewBabbitt97/RGBKit</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/RGBKit/RGBKit</RepositoryUrl>
+    <RepositoryUrl>https://github.com/AndrewBabbitt97/RGBKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>rgb, rgbkit, sdk</PackageTags>
     <PackageReleaseNotes>Initialization fixes</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
 	<IncludeSymbols>true</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>

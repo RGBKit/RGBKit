@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -9,20 +9,20 @@
     <Description>The RGB Kit Corsair CUE provider.</Description>
     <Copyright>RGBKit</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/RGBKit</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/AndrewBabbitt97/RGBKit</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/RGBKit/RGBKit</RepositoryUrl>
+    <RepositoryUrl>https://github.com/AndrewBabbitt97/RGBKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>rgb, rgbkit, sdk, cue, corsair</PackageTags>
     <PackageReleaseNotes>Initialization fixes</PackageReleaseNotes>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
 	<IncludeSymbols>true</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CUESDK.NET" Version="3.0.361.1" />
-    <PackageReference Include="RGBKit.Core" Version="1.2.1" />
+    <PackageReference Include="RGBKit.Core" Version="1.2.2" />
   </ItemGroup>
 
   <ItemGroup>
